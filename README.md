@@ -8,28 +8,88 @@
 - **Tableau Desktop:**
 - **Tableau Public:**
 - **Microsoft Excel:**
+- **Git and Github:**
+
 # The Vizzes
-**1. Basic Bar Charts:**
+
+### 1. Basic Bar Charts
+
+Datasource: [Office_Supplies](Datasources/OfficeSupplies.csv)
+
 This bar chart shows which sales representatives generated the highest sales, categorized by region.
+
 ![Total_Sales](https://github.com/user-attachments/assets/6647d108-67f9-492a-84c5-f7fe7d929025)
 *Bar chart with total sales by sales representatives categorized by region* 
 
-**2. Time series, granularity, and level of detail:**
-This area chart illustrates the breakdown number of unemployment across various age groups. Age filter is added to highlight the desired age group.
+### 2. Time series, Aggregation, and Filters
 
-![Long_Term_Unemployment_Analysis](https://github.com/user-attachments/assets/8ce7544f-2987-439c-aee4-cd2bbe4412ea)
+Datasource: [Long_term_unemployment_statistics](Datasources/Long-Term-Unemployment-Statistics.xlsx)
+
+![Long_Term_Unemployment_Analysis](Assets/Long_Term_Unemployment_Analysis.png)
 *Area chart aggregating number of umployment filtered by age groups*
 
 
-**3. Maps, scatterplots, and dashboards:**
+### 3. Dashboards
+Datasource: [AmazingMartEU2](Datasources/AmazingMartEU2.xlsx)
+
+Here are my findings:
 - This dashboard features a map of Europe alongside scatterplots that visualize customer margins, segmented by performance. Margins below 50% are displayed in red to indicate underperformance, while margins above 50% appear in blue, representing satisfactory performance.
 - A Year filter is available and applies to all worksheets across the workbook, allowing users to focus on specific time periods. Additionally, an action filter enables users to interact with the dashboard, dynamically updating the customer scatter plot based on their selections
   
-![dashboard](https://github.com/user-attachments/assets/4397f5d1-8f77-4793-a018-84db8a589718)
+![Dashboard](Assets/Customer%20Margin%20Dashboard.png)
 
-*Dashboard filtered by country with customer margin scatter plot*
+*Dashboard filtered by country with customer margin scatter plots*
+
+### 4. Joining and Blending Tables
+
+Datasource: [AmazingMartEU2](Datasources/AmazingMartEU2.xlsx)
+
+Here are my findings:
+- The furniture department follows a linear target, while the office supplies department has a quarterly target. In contrast, the technology department reviews and sets its target annually for the following year.
+
+- The furniture department has consistently underperformed, suggesting their target may need to be reassessed. The technology department shows clusters of underperformance, indicating that a quarterly or monthly target may be more appropriate. The office supplies department has the fewest underperforming months, suggesting that a quarterly target is well-suited for this department.
+
+![Dual Axil Chart](Assets/Department_Performance_Review.png)
+*Dual axis chart to visualize monthly department performances*
+
+### 5. Relationships
+
+Datasource: [Brazilian_E-Commerce_Public_Dataset_by_Olist](/https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+Here is the task: Create a street map to illustrate seller geographic information.
+
+![Street_Map](Assets/Seller_Geo_Map.png)
+*Street map showing sellers' geo location*
+
+### 6. Storytelling from Dashboards 
+
+Datasource: [UK_Bank_Customers](Datasources/UK_Bank_Customers.csv)
+
+Here are some insights derived from this dashboard:
+
+- The majority of customers in Scotland are male, blue-collar workers aged 40-50, while in England, customers are predominantly white-collar workers aged 30-40, with an equal gender distribution. This difference may be influenced by London’s status as an economic hub of Europe. Consequently, marketing strategies should be tailored for each region.
+
+- This dashboard helps the bank better understand its customer base, enabling it to offer more relevant, customized products based on customer demographics.
+
+![Customer_Demographic_Scotland](Assets/Customer_Demographic_Dahsboard.png)
+*Interative dashboard illustrating customer demographic in Scotland*
+
+![Customer_Demographic_England](Assets/Customer_Demographic_Dahsboard_England.png)
+*Interative dashboard illustrating customer demographic in England*
+
+### 7. Data Preparation
+
+### 8. Clusters, Custom Territories, Desgin Features
+
+### 9. Tableau Toolkit
+
+
 
 # What I Learned
 - :eight_spoked_asterisk: **Data roles in Tableau:**
 - :black_nib: **Difference between Action-Highlight and Action-Filter:**
+- :date: **When to Blend or Join datasources:** Blend when datasources have different level of granularity or datasources are from different systmes. While join is used when combing data at row level.
+
+# Conclusion
+
 ### Insights
