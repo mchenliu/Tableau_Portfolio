@@ -5,10 +5,9 @@
 # Background
 ### This Tableau portfolio records my learning journey following Kirill Eremenko's [course](https://www.udemy.com/course/tableau10).
 # Tools I Used
-- **Tableau Desktop:**
-- **Tableau Public:**
-- **Microsoft Excel:**
-- **Git and Github:**
+- **Tableau Desktop and Public:**
+- **Microsoft Excel:** The format of sourcedata. I use Excel to examine raw data at the first stage.
+- **Git and Github:** My go-to for version control and tracking my project progress.
 
 # The Vizzes
 
@@ -83,7 +82,14 @@ Here are some insights derived from this dashboard:
 ![Customer_Demographic_Northern_Ireland](Assets/Customer_Demographic_Dahsboard_Northen_Ireland.png)
 *Interative dashboard illustrating customer demographic in Northern Ireland*
 
-### 7. Data Preparation
+### 7. Data Cleaning and Preparation
+
+Datasource: [Personal_Vehicle_Sales_Global](Datasources/PersonalVehicleSalesGlobal.xlsx)
+
+Cleaned source data after examination with the aid of Tableau *Data Interpreter*. Connected Tableau with sourcedata and *pivoted* year and vehicles sold columns. Updated columns with *MetaData Grid* and fixed geographical data errors in maps.
+
+![Map](Assets/Map.png)
+*Vehicles sold map*
 
 ### 8. Clusters, Custom Territories, Desgin Features
 
@@ -95,6 +101,7 @@ Here are some insights derived from this dashboard:
 - :eight_spoked_asterisk: **Data roles in Tableau:**
 - :black_nib: **Difference between Action-Highlight and Action-Filter:**
 - :date: **When to Blend or Join datasources:** Blend when datasources have different level of granularity or datasources are from different systmes. While join is used when combing data at row level.
+- :flashlight: **Dashboard presentation:**
 
 # Conclusion
 
