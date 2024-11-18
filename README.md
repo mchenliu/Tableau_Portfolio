@@ -6,7 +6,7 @@
 ### This Tableau portfolio records my learning journey following Kirill Eremenko's [course](https://www.udemy.com/course/tableau10).
 # Tools I Used
 - **Tableau Desktop and Public:**
-- **Microsoft Excel:**Sourcedata in this project are spreadsheets. I use Excel to examine raw data as its the first step of ETL.
+- **Microsoft Excel:** Sourcedata in this project are spreadsheets. I use Excel to examine raw data as its the first step of ETL.
 - **Git and Github:** My go-to for version control and tracking my project progress.
 
 # The Vizzes
