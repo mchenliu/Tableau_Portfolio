@@ -6,6 +6,7 @@
 ### This Tableau report was created to answer the following key business questions:
 # Tools I Used
 - **Tableau Desktop:**
+- **Microsoft Excel:**
 # The Analysis
 # What I Learned
 ### Insights
