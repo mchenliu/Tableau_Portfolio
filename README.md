@@ -67,7 +67,7 @@ Datasource: [UK_Bank_Customers](Datasources/UK_Bank_Customers.csv)
 
 Here are some insights derived from this dashboard:
 
-- The majority of customers in Scotland are male, blue-collar workers aged 40-50, while in England, customers are predominantly white-collar workers aged 30-40, with an equal gender distribution. This difference may be influenced by London’s status as an economic hub of Europe. Consequently, marketing strategies should be tailored for each region.
+- The majority of customers in Scotland are male, blue-collar workers aged 40-50, while in England, customers are predominantly white-collar workers aged 30-40, with an equal gender distribution. This difference may be influenced by London’s status as an economic hub of Europe. Customers from Wales aging between 30 - 40 has above average mid-sized balances. Lastly, in Northern Ireland, customers are dominantly females in young age groups. Consequently, marketing strategies should be tailored for each region according to this analysis.
 
 - This dashboard helps the bank better understand its customer base, enabling it to offer more relevant, customized products based on customer demographics.
 
@@ -76,6 +76,12 @@ Here are some insights derived from this dashboard:
 
 ![Customer_Demographic_England](Assets/Customer_Demographic_Dahsboard_England.png)
 *Interative dashboard illustrating customer demographic in England*
+
+![Customer_Demographic_Wales](Assets/Customer_Demographic_Dahsboard_Wales.png)
+*Interative dashboard illustrating customer demographic in Wales*
+
+![Customer_Demographic_Northern_Ireland](Assets/Customer_Demographic_Dahsboard_Northen_Ireland.png)
+*Interative dashboard illustrating customer demographic in Northern Ireland*
 
 ### 7. Data Preparation
 
