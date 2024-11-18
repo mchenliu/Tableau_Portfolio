@@ -1,5 +1,5 @@
 # Introduction
-:mega: of Kirill Eremenko's [course](https://www.udemy.com/course/tableau10)).
+:mega: of Kirill Eremenko's [course](https://www.udemy.com/course/tableau10).
 
 :computer: Check out the my Tableau profile here: [Tableau Profile](https://public.tableau.com/app/profile/mei.liu4813/vizzes)
 # Background
