@@ -1,11 +1,11 @@
 # Introduction
-:mega: This Tableau portfolio records my learning journey following Kirill Eremenko's [course](https://www.udemy.com/course/tableau10).
+:mega: This Tableau portfolio documents my learning journey through Kirill Eremenko's [course on Udemy](https://www.udemy.com/course/tableau10).
 
 :computer: Check out my Tableau profile here: [Tableau Profile](https://public.tableau.com/app/profile/mei.liu4813/vizzes)
 
 # Tools I Used
-- **Tableau Desktop and Public:** A powerful data visualization and business intelligence tool owned by Salesforce. In this project, I will learn how to connect Tableau to various datasets. Analyze, blend and calulate data. Visualize data in the form of various charts, plots and maps. The Vizzes are published on Tableau Public.
-- **Microsoft Excel:** Sourcedata in this project are spreadsheets. I used Excel to examine raw data as its the first step of ETL.
+- **Tableau Desktop and Public:** A powerful data visualization and business intelligence tool owned by Salesforce. In this project, I connected Tableau to various datasets, analyzed and transformed data, and visualized it through various charts, plots, and maps. All visualizations are published on Tableau Public.
+- **Microsoft Excel:** The source data is in spreadsheets, so I used Excel for initial data examination, an essential step in ETL.
 - **Git and Github:** My go-to for version control and tracking my project progress.
 
 # The Vizzes
@@ -146,10 +146,10 @@ These are both interative features used to customize dashboards. They are both v
     - Action-Filter: When a user clicks on a data point in one view, Tableau filters out data that is **not related** to that selection in other visualization leaving only related data. This is useful when displaying related data with selected item. This provides a more focussed view of selected data and enable deeper analysis. 
     
 - :date: **When to Blend or Join datasources:** 
-    - Blend: When datasources have different level of granularity or datasources are from different systmes. 
-    - Join: Used when combing data at row level.
+    - Blend: For different levels of granularity or external data sources. 
+    - Join: For combining data at the row level.
 
-- :flashlight: **Dashboard presentation:** Presentation details are important. Font and sizes should be uniform throughout the dashboard.
+- :flashlight: **Dashboard presentation:** Consistency in font and size enhances dashboard readability and professionalism.
 
 # Conclusion
 
@@ -158,4 +158,4 @@ These are both interative features used to customize dashboards. They are both v
 This project provides me an excellent foundation for understanding Tableau. Although Tableau is relatively easy to use with its intuitive drag-and-drop interface for creating beautiful visualizations, I’ve realized that several additional skills are crucial for delivering accurate insights. These include examining source data thoroughly, understanding its structure, performing initial data processing (ETL), identifying table relationships, and clarifying the visualization’s purpose. While this course introduces Tableau's fundamentals, it doesn’t cover these areas in depth. I look forward to honing these skills further after completing this project.
 
 ### What's Next
-Vizzes in the porfolio are completed under the guidance of the course instructer. I am expecting myself to complete an independant project next.
+These visualizations were created under course guidance. My next goal is to complete an independent Tableau project.
