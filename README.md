@@ -1,19 +1,18 @@
 # Introduction
-:mega: 
+:mega: This Tableau portfolio records my learning journey following Kirill Eremenko's [course](https://www.udemy.com/course/tableau10).
 
 :computer: Check out my Tableau profile here: [Tableau Profile](https://public.tableau.com/app/profile/mei.liu4813/vizzes)
-# Background
-### This Tableau portfolio records my learning journey following Kirill Eremenko's [course](https://www.udemy.com/course/tableau10).
+
 # Tools I Used
-- **Tableau Desktop and Public:**
-- **Microsoft Excel:** Sourcedata in this project are spreadsheets. I use Excel to examine raw data as its the first step of ETL.
+- **Tableau Desktop and Public:** A powerful data visualization and business intelligence tool owned by Salesforce. In this project, I will learn how to connect Tableau to various datasets. Analyze, blend and calulate data. Visualize data in the form of various charts, plots and maps. The Vizzes are published on Tableau Public.
+- **Microsoft Excel:** Sourcedata in this project are spreadsheets. I used Excel to examine raw data as its the first step of ETL.
 - **Git and Github:** My go-to for version control and tracking my project progress.
 
 # The Vizzes
 
 ### 1. Basic Bar Charts
 
-Datasource: [Office_Supplies](Datasources/OfficeSupplies.csv)
+Datasource: [Data_Office_Supplies](Datasources/OfficeSupplies.csv)
 
 This bar chart shows which sales representatives generated the highest sales, categorized by region.
 
@@ -22,14 +21,18 @@ This bar chart shows which sales representatives generated the highest sales, ca
 
 ### 2. Time series, Aggregation, and Filters
 
-Datasource: [Long_term_unemployment_statistics](Datasources/Long-Term-Unemployment-Statistics.xlsx)
+Datasource: [Data_Long_term_unemployment_statistics](Datasources/Long-Term-Unemployment-Statistics.xlsx)
+
+My Viz: [Long_term_unemployment_statistics](https://public.tableau.com/app/profile/mei.liu4813/viz/Long_Term_Unemployment_Analysis_17319042561240/Long_Term_Unemployment_Analysis)
 
 ![Long_Term_Unemployment_Analysis](Assets/Long_Term_Unemployment_Analysis.png)
 *Area chart aggregating number of umployment filtered by age groups*
 
 
 ### 3. Dashboards
-Datasource: [AmazingMartEU2](Datasources/AmazingMartEU2.xlsx)
+Datasource: [Data_AmazingMartEU2](Datasources/AmazingMartEU2.xlsx)
+
+My Viz: [Customer_Margin_Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/Customer_Margin_Dashboard/CustomerMarginDashboard)
 
 Here are my findings:
 - This dashboard features a map of Europe alongside scatterplots that visualize customer margins, segmented by performance. Margins below 50% are displayed in red to indicate underperformance, while margins above 50% appear in blue, representing satisfactory performance.
@@ -41,7 +44,9 @@ Here are my findings:
 
 ### 4. Joining and Blending Tables
 
-Datasource: [AmazingMartEU2](Datasources/AmazingMartEU2.xlsx)
+Datasource: [Data_AmazingMartEU2](Datasources/AmazingMartEU2.xlsx)
+
+My Viz: [Department_Performance_Review](https://public.tableau.com/app/profile/mei.liu4813/viz/4_Department_Performance_Review/4_Department_Performance_Review)
 
 Here are my findings:
 - The furniture department follows a linear target, while the office supplies department has a quarterly target. In contrast, the technology department reviews and sets its target annually for the following year.
@@ -53,7 +58,9 @@ Here are my findings:
 
 ### 5. Relationships
 
-Datasource: [Brazilian_E-Commerce_Public_Dataset_by_Olist](/https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+Datasource: [Data_Brazilian_E-Commerce_Public_Dataset_by_Olist](/https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+My Viz: [Seller_geo_map](https://public.tableau.com/app/profile/mei.liu4813/viz/5_Seller_Geo_Map/5_Seller_Geo_Map)
 
 Here is the task: Create a street map to illustrate seller geographic information.
 
@@ -62,7 +69,9 @@ Here is the task: Create a street map to illustrate seller geographic informatio
 
 ### 6. Storytelling from Dashboards 
 
-Datasource: [UK_Bank_Customers](Datasources/UK_Bank_Customers.csv)
+Datasource: [Data_UK_Bank_Customers](Datasources/UK_Bank_Customers.csv)
+
+My Viz: [Customer_demographic_dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/6_Customer_Demographic_Dashboard/Customer_Demographic_Dahsboard)
 
 Here are some insights derived from this dashboard:
 
@@ -84,25 +93,69 @@ Here are some insights derived from this dashboard:
 
 ### 7. Data Cleaning and Preparation
 
-Datasource: [Personal_Vehicle_Sales_Global](Datasources/PersonalVehicleSalesGlobal.xlsx)
+Datasource: [Data_Personal_Vehicle_Sales_Global](Datasources/PersonalVehicleSalesGlobal.xlsx)
+
+My Viz: [Vehicle_sales_map](https://public.tableau.com/app/profile/mei.liu4813/viz/8_Data_Cleaning/Map)
 
 Cleaned source data after examination with the aid of Tableau *Data Interpreter*. Connected Tableau with sourcedata and *pivoted* year and vehicles sold columns. Updated columns with *MetaData Grid* and fixed geographical data errors in maps.
 
 ![Map](Assets/Map.png)
-*Vehicles sold map*
+*Vehicles sales map*
 
 ### 8. Clusters, Custom Territories, Desgin Features
 
-### 9. Tableau Toolkit
+Datasource: [Data_Startup_Expansion](Datasources/Startup_Expansion.xlsx) and [Data_US_Cities_Population](Datasources/US_Cities_Population.csv)
 
+My Viz: [Marketing_Performance_Review](https://public.tableau.com/app/profile/mei.liu4813/viz/9_Marketing_Performance_Review/Dashboard1)
+
+Tasks for this project are:
+
+1. Identify which of the two sales regions is performing better in
+average  return per city, average marketing spending per city and average return on marketing investment per city?
+
+Cities were *grouped* by *geographic roles* to aggregate and calculate information on sales regions. Region 1 has a higher average revenue and the average marketing spend is slightly lower than region 2. Region 1 has a higher return on marketing investment.
+
+![Region_Stats](Assets/Region_Stats.png)
+*Custom territories*
+
+
+
+2. Identify which of the 10 new locations have the best potential for the company to invest more funds in to marketing?
+*Clusters* are used to visualoze this with US_cities_population database joined to fine tune the answer. With *regression* and *highlight* added. I found that blue stores have the best return on marketing spend even though they generate less revenue than orange stores. The company should invest more funds in these four stores.
+
+![Clusters](Assets/Clusters.png)
+
+*Clusters with regression modeling*
 
 
 # What I Learned
 - :eight_spoked_asterisk: **Data roles in Tableau:**
-- :black_nib: **Difference between Action-Highlight and Action-Filter:**
-- :date: **When to Blend or Join datasources:** Blend when datasources have different level of granularity or datasources are from different systmes. While join is used when combing data at row level.
-- :flashlight: **Dashboard presentation:**
+    
+    - Dimensions v Measures
+        - Dimensions: **Categorical** data fields (e.g., Product Category or Region). They are normally used to slice and label data, like creating categories or groups on the axes.
+        -  Measures: **Numerical** data fields that can be aggregated (e.g., Sales or Profitantity). They are used for calculations (e.g., summing or averaging) and typically represent the values shown in visuals.
+
+    - Discrete v Continous Fields
+        - Discrete (Blue): Represented as distinct, separate values. Discrete fields create **headers and groups** (e.g., categories, names). 
+        - Continuous (Green): Represented as an **uninterrupted range of values**. Continuous fields create axes for charts, like line graphs or histograms (e.g., profit amount, temperature). Continuous data is often used to show trends over time or to represent a scale.
+
+- :black_nib: **Difference between Action-Highlight and Action-Filter:** 
+These are both interative features used to customize dashboards. They are both very valuable tools depending on what stories the dashboard users want to tell.
+
+    - Action-Highligh: When a user selects a data point (e.g., a bar or a point on a mpa),Tableau will highligh **all related** data points in other visualizations on the dashboard. This is ideal for emphasizing relationships without removing other data from view. 
+    - Action-Filter: When a user clicks on a data point in one view, Tableau filters out data that is **not related** to that selection in other visualization leaving only related data. This is useful when displaying related data with selected item. This provides a more focussed view of selected data and enable deeper analysis. 
+    
+- :date: **When to Blend or Join datasources:** 
+    - Blend: When datasources have different level of granularity or datasources are from different systmes. 
+    - Join: Used when combing data at row level.
+
+- :flashlight: **Dashboard presentation:** Presentation details are important. Font and sizes should be uniform throughout the dashboard.
 
 # Conclusion
 
-### Insights
+### Closing Thoughts
+
+This project provides me an excellent foundation for understanding Tableau. Although Tableau is relatively easy to use with its intuitive drag-and-drop interface for creating beautiful visualizations, I’ve realized that several additional skills are crucial for delivering accurate insights. These include examining source data thoroughly, understanding its structure, performing initial data processing (ETL), identifying table relationships, and clarifying the visualization’s purpose. While this course introduces Tableau's fundamentals, it doesn’t cover these areas in depth. I look forward to honing these skills further after completing this project.
+
+### What's Next
+Vizzes in the porfolio are completed under the guidance of the course instructer. I am expecting myself to coomplete an independant project next.
