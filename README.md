@@ -158,4 +158,4 @@ These are both interative features used to customize dashboards. They are both v
 This project provides me an excellent foundation for understanding Tableau. Although Tableau is relatively easy to use with its intuitive drag-and-drop interface for creating beautiful visualizations, I’ve realized that several additional skills are crucial for delivering accurate insights. These include examining source data thoroughly, understanding its structure, performing initial data processing (ETL), identifying table relationships, and clarifying the visualization’s purpose. While this course introduces Tableau's fundamentals, it doesn’t cover these areas in depth. I look forward to honing these skills further after completing this project.
 
 ### What's Next
-Vizzes in the porfolio are completed under the guidance of the course instructer. I am expecting myself to coomplete an independant project next.
+Vizzes in the porfolio are completed under the guidance of the course instructer. I am expecting myself to complete an independant project next.
