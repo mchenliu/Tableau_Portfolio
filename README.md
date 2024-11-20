@@ -1,3 +1,21 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Tools I Used](#tools-i-used)
+- [The Vizzes](#the-vizzes)
+    - [1. Basic Bar Charts](#1-basic-bar-charts)
+    - [2. Time series, Aggregation, and Filters](#2-time-series-aggregation-and-filters)
+    - [3. Dashboards](#3-dashboards)
+    - [4. Joining and Blending Tables](#4-joining-and-blending-tables)
+    - [5. Relationships](#5-relationships)
+    - [6. Storytelling from Dashboards](#6-storytelling-from-dashboards)
+    - [7. Data Cleaning and Preparation](#7-data-cleaning-and-preparation)
+    - [8. Clusters, Custom Territories, Desgin Features](#8-clusters-custom-territories-desgin-features)
+- [What I Learned](#what-i-learned)
+- [Conclusion](#conclusion)
+    - [Closing Thoughts](#closing-thoughts)
+    - [What's Next](#whats-next)
+
 # Introduction
 :mega: This Tableau portfolio documents my learning journey through Kirill Eremenko's [course on Udemy](https://www.udemy.com/course/tableau10).
 
